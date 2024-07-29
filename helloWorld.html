@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvimento web</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <h2>Aprendendo html/css/javascript/php/mysql no meu primeiro período da faculdade.</h2>
+    <p>Criarei um repositório para subir esta aplicação web para o meu github, estou muito animado!!!</p>
+    <p>I'm gonna create a git repository to push my web app to my github profile!!!</p>
+
+    <button onclick="displayDate()" style="cursor: pointer;">Click to display the current date</button>
+
+    <p id="demo" onclick="this.innerHTML = Date()" style="cursor: pointer;">You can click here too!</p>
+
+    <script>
+        function displayDate()
+        {
+            document.getElementById("demo").innerHTML = Date();
+        }
+    </script>
+    
+</body>
+</html>
